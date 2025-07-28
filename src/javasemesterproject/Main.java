@@ -130,7 +130,7 @@ public class Main extends JFrame implements ActionListener{
         SignupButton.setVerticalTextPosition(JButton.BOTTOM);
         SignupButton.addActionListener((ActionListener) this);
         
-        ImageIcon mainPic1 = new ImageIcon(ClassLoader.getSystemResource("javasemesterproject/icons/ElearningMain.png"));
+        ImageIcon mainPic1 = new ImageIcon(ClassLoader.getSystemResource("javasemesterproject/icons/ELearningMain.png"));
         Image mainPic2 = mainPic1.getImage().getScaledInstance(500 ,500 ,Image.SCALE_DEFAULT);
         ImageIcon mainPic3 =  new ImageIcon(mainPic2);
         mainScreenLbl = new JLabel(mainPic3);
